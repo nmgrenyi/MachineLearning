@@ -1,0 +1,25 @@
+name – name of the board game.
+playingtime – the playing time (given by the manufacturer).
+minplaytime – the minimum playing time (given by the manufacturer).
+maxplaytime – the maximum playing time (given by the manufacturer).
+minage – the minimum recommended age to play.
+users_rated – the number of users who rated the game.
+average_rating – the average rating given to the game by users. (0-10)
+total_weights – Number of weights given by users.  It’s how “deep” or involved a game is.
+                A rating for a combination of attributes related to how difficult
+                a game is to understand. Lower ratings mean easier.
+average_weight – the average of all the subjective weights (0-5).
+                0Light
+                1Medium Light
+                2Medium
+                3Medium Heavy
+                4Heavy
+
+
+ n_estimators=10
+The accuracy was 0.824444444444  on the test data.
+The digit at index 1 of X_test was classified as a 2.0 .
+
+ n_estimators=32
+The accuracy was 0.944444444444  on the test data.
+The digit at index 1 of X_test was classified as a 0.0 .
